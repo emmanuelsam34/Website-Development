@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContactPage</title>
+    <link href="contactpage.css" rel="stylesheet" srctype="new.css"/>
+</head>
+  
+<body>
+   <div class="contact">
+      <header>
+        <ul>
+          <li><a href="index.html">HomePage</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="register.html">Register</a></li>
+        </ul>
+      </header>
+    </div>
+    <section class="contactpage">
+          <div class="login">
+            <h1>Kindly fill in your Contact Details below</h1><br>
+            <form action="" method="post">
+              <div class="details">
+               <label for="name">Name</label>
+               <input type="text" name="name" id="name" required /><br>
+              </div><br>
+              <div class="email">
+               <label for="email">Email</label>
+               <input type="text" name="email" id="email" required />
+              </div><br>
+              <div class="message">
+               <p>Type Your Message</p>
+               <textarea>
+               </textarea>
+              </div><br>
+
+              <div class="priority">
+                <label for="priority">Priority</label>
+                <select name="priority" required>
+                 <option value="high">High</option>
+                 <option value="low">Low</option>
+                 <option value="moderate">moderate</option>
+                </select>
+              </div>
+            </form>
+        </div>  
+    </section>
+
+</body>
+</html>
